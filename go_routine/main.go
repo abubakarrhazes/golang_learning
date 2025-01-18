@@ -8,6 +8,7 @@ import (
 func worker(id int, jobs <-chan int, results chan<- int) {
 	for job := range jobs {
 		fmt.Printf("Worker %d processing job %d\n", id, job)
+		fmt.Println("Channels and Goroutine")
 		time.Sleep(1 * time.Second) // Simulate work
 		results <- job * 2          // Return the processed result
 	}
