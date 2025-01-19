@@ -30,3 +30,12 @@ type point struct {
 	y float32
 	z float32
 }
+
+
+type User struct{
+	FirstName string
+	LastName string
+	OtherName string
+	DateOfBirth string
+	
+}

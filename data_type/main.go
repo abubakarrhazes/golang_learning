@@ -5,6 +5,6 @@ import "fmt"
 
 
 func main()  {
-	fmt.Println("Data Type Module")
+	fmt.Println("Data Type Learning")
 	
 }
