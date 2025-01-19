@@ -6,6 +6,8 @@ func main() {
 	var pt1 point
 
 	var user User
+
+	var address Address
 	pt1.x = 3.1
 	pt1.y = 5.7
 	pt1.z = 4.2
@@ -15,6 +17,14 @@ func main() {
 	user.FirstName = "Abubakar"
 	user.LastName = "Nuuman"
 	user.OtherName = "Adam"
+
+	// Declaring Address Varibales Here
+
+	address.Country = "Nigeria"
+	address.State = "Sokoto"
+	address.LGA = "Kware"
+	address.Ward = "Durbawa"
+	address.HomeAddress = "Durbawa Town "
 	/*
 		Consider You want to store  location of point as X and Y Coordinate
 
@@ -45,4 +55,12 @@ type User struct {
 	LastName    string
 	OtherName   string
 	DateOfBirth string
+}
+
+type Address struct {
+	Country     string
+	State       string
+	LGA         string
+	Ward        string
+	HomeAddress string
 }
