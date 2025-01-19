@@ -49,6 +49,11 @@ func main() {
 	fmt.Println(address.State)
 	fmt.Println(address.Ward)
 
+	// pt2Y := 3.8
+	fmt.Println("PRINTING ADDRESS DATA HERE")
+	fmt.Println(address.Country)
+	fmt.Println(address.State)
+	fmt.Println(address.Ward)
 
 	// pt2Y := 3.8
 	fmt.Println("PRINTING ADDRESS DATA HERE")
