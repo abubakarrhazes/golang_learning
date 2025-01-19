@@ -17,6 +17,11 @@ func main() {
 	user.FirstName = "Abubakar"
 	user.LastName = "Nuuman"
 	user.OtherName = "Adam"
+	// pt2Y := 3.8
+	fmt.Println("PRINTING USER DATA")
+	fmt.Println(user.FirstName)
+	fmt.Println(user.LastName)
+	fmt.Println(user.OtherName)
 
 	// Declaring Address Varibales Here
 
