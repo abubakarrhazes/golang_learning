@@ -30,6 +30,12 @@ func main() {
 	address.LGA = "Kware"
 	address.Ward = "Durbawa"
 	address.HomeAddress = "Durbawa Town "
+
+	// pt2Y := 3.8
+	fmt.Println("PRINTING ADDRESS DATA HERE")
+	fmt.Println(address.Country)
+	fmt.Println(address.State)
+	fmt.Println(address.Ward)
 	/*
 		Consider You want to store  location of point as X and Y Coordinate
 
