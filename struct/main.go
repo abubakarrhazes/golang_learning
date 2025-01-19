@@ -4,9 +4,17 @@ import "fmt"
 
 func main() {
 	var pt1 point
+
+	var user User
 	pt1.x = 3.1
 	pt1.y = 5.7
 	pt1.z = 4.2
+
+	// Declaring User Variables Here
+
+	user.FirstName = "Abubakar"
+	user.LastName = "Nuuman"
+	user.OtherName = "Adam"
 	/*
 		Consider You want to store  location of point as X and Y Coordinate
 
@@ -22,6 +30,7 @@ func main() {
 	fmt.Println(pt1.x)
 	fmt.Println(pt1.y)
 	fmt.Println(pt1.z)
+	fmt.Println("")
 
 }
 
@@ -31,11 +40,9 @@ type point struct {
 	z float32
 }
 
-
-type User struct{
-	FirstName string
-	LastName string
-	OtherName string
+type User struct {
+	FirstName   string
+	LastName    string
+	OtherName   string
 	DateOfBirth string
-	
 }
