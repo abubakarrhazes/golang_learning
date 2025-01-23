@@ -134,3 +134,10 @@ type Car struct {
 	ChaasisNumber string
 	PlateNumber   string
 }
+type Vehicle struct {
+	Name          string
+	Model         string
+	EngineNumber  string
+	ChaasisNumber string
+	PlateNumber   string
+}
