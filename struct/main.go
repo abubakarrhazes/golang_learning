@@ -21,7 +21,14 @@ func main() {
 	pt1.z = 4.2
 
 
-	// 
+	// Declaring Car Variables
+
+
+	car.Name = "Honda"
+	car.Model = "CRV"
+	car.EngineNumber = "HND-CRV-2892417140741"
+	car.ChaasisNumber = "CHS-R309309710619611"
+	
 
 	// Declaring User Variables Here
 
