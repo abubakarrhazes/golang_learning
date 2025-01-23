@@ -7,28 +7,20 @@ func main() {
 
 	var user User
 
-
 	var car Car
-
-
-
-
-
 
 	var address Address
 	pt1.x = 3.1
 	pt1.y = 5.7
 	pt1.z = 4.2
 
-
 	// Declaring Car Variables
-
 
 	car.Name = "Honda"
 	car.Model = "CRV"
 	car.EngineNumber = "HND-CRV-2892417140741"
 	car.ChaasisNumber = "CHS-R309309710619611"
-	
+	car.PlateNumber = "SKK-102-50H"
 
 	// Declaring User Variables Here
 
@@ -78,6 +70,14 @@ func main() {
 	fmt.Println(address.Country)
 	fmt.Println(address.State)
 	fmt.Println(address.Ward)
+
+	fmt.Println("PRINTING CARS DATA HERE")
+	fmt.Println(car.Name)
+	fmt.Println(car.Model)
+	fmt.Println(car.EngineNumber)
+	fmt.Println(car.ChaasisNumber)
+	fmt.Println(car.PlateNumber)
+
 	/*
 		Consider You want to store  location of point as X and Y Coordinate
 
