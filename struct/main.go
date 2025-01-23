@@ -78,6 +78,15 @@ func main() {
 	fmt.Println(car.ChaasisNumber)
 	fmt.Println(car.PlateNumber)
 
+
+
+	fmt.Println("PRINTING CARS DATA HERE")
+	fmt.Println(car.Name)
+	fmt.Println(car.Model)
+	fmt.Println(car.EngineNumber)
+	fmt.Println(car.ChaasisNumber)
+	fmt.Println(car.PlateNumber)
+
 	/*
 		Consider You want to store  location of point as X and Y Coordinate
 
