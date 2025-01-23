@@ -99,3 +99,11 @@ type Address struct {
 	Ward        string
 	HomeAddress string
 }
+
+type Car struct {
+	Name          string
+	Model         string
+	EngineNumber  string
+	ChaasisNumber string
+	PlateNumber   string
+}
