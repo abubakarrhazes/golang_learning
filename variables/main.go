@@ -23,9 +23,13 @@ func main() {
 
 	animal := "DOG"
 
+	car := "Honda"
+
 	underAge := false
 
 	fmt.Println(underAge)
+
+	fmt.Println(car)
 
 	fmt.Println("Animal here is " + animal)
 
