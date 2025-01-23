@@ -7,10 +7,21 @@ func main() {
 
 	var user User
 
+
+	var car Car
+
+
+
+
+
+
 	var address Address
 	pt1.x = 3.1
 	pt1.y = 5.7
 	pt1.z = 4.2
+
+
+	// 
 
 	// Declaring User Variables Here
 
