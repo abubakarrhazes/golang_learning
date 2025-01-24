@@ -13,6 +13,8 @@ func main() {
 
 	fmt.Println(addition(10, 10))
 
+	fmt.Println("Grouping Codes")
+
 }
 
 // METHODS THAT ADD TWO INTEGER NUMBERS
